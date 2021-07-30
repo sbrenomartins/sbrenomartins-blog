@@ -24,6 +24,14 @@ export default function Projects() {
           <li className={utilStyles.listItem} key='monitorbot'>
             <a href='http://app-monitorbot.herokuapp.com/' target='_blank' rel='noreferrer'>Monitor Chatbot</a>
           </li>
+
+          <li className={utilStyles.listItem} key='glassmorphismlogin'>
+            <a href='https://sbrenomartins.github.io/glassmorphism-login/' target='_blank' rel='noreferrer'>Glassmorphism Login</a>
+          </li>
+
+          <li className={utilStyles.listItem} key='responsivelogin'>
+            <a href='https://sbrenomartins.github.io/responsive-signin-signup/' target='_blank' rel='noreferrer'>Responsive Animation Login</a>
+          </li>
         </ul>
       </section>
     </Layout>
