@@ -32,7 +32,7 @@ export default function Layout({ children, home }) {
         }}>
           <span>
             <Link href='/projects'>
-              <a className={styles.projects}>Projects</a>
+              <a className={styles.projects}>🚀 Projects</a>
             </Link>
           </span>
         </section>
@@ -49,7 +49,7 @@ export default function Layout({ children, home }) {
               width={144}
               alt={name}
             />
-            <h1 className={utilStyles.heading2X1}>{name}</h1>
+            <h1 className={utilStyles.heading2X1} style={{ textAlign: 'center' }}>{name} {'\n'}👨‍💻</h1>
           </>
         ) : (
           <>
@@ -83,7 +83,7 @@ export default function Layout({ children, home }) {
       {!home && (
         <div className={styles.backToHome}>
           <Link href='/'>
-            <a>← Back to home</a>
+            <a>← Back to home 🚀</a>
           </Link>
         </div>
       )}

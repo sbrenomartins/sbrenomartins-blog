@@ -23,7 +23,7 @@ export default function Home({ allPostsData }) {
       </Head>
 
       <section>
-        <p>Hello, I am Breno. I am a Fullstack Developer focusing on React, React Native, Node.js and .NET Core</p>
+        <p>Hello, I am Breno. I am a Fullstack Developer focusing on React, React Native, Node.js and .NET Core 🔥</p>
       </section>
 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
